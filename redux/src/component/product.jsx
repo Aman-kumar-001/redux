@@ -13,13 +13,13 @@ function Product() {
         <div><h2>{item.name}</h2></div>
         <div className="">Price :--RS {item.price}/-</div>
       </div>    */}
-{props.map((item) => {
+{props.map((item) => (
     <div className="box" key={item.id}>
     <div><img src={item.url} alt='image' /></div>
     <div><h2>{item.name}</h2></div>
     <div className="">Price :--RS {item.price}/-</div>
   </div> 
-})}
+))}
 
 
 

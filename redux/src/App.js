@@ -7,7 +7,7 @@ function App() {
 
   const products = data.products;
 
- 
+ console.log(products)
 
   return (
     <div>
