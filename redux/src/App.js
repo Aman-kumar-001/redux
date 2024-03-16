@@ -7,18 +7,15 @@ function App() {
 
   const products = data.products;
 
- console.log(products)
 
   return (
     <div>
       <Cart />
-      <div className="product">
-        {products.map((items) => {
-          <Product key={items.id} items={items} />;
-        })}
-      </div>
+      <Product products={products}/>
     </div>
   );
 }
 
 export default App;
+
+
