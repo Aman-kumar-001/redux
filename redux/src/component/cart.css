@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart-section{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
